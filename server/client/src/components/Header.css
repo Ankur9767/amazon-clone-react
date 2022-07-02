@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+.img_logo{
+    margin-top:20px;
+    margin-left:20px;
+    padding-bottom: 18px;
+    cursor: pointer;
+
+}
+.header{
+    background-color: #131A22;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.searchinput{
+    height: 40px;         
+    width: 100%;    
+    margin-left:30px;  
+    outline: none;
+    background-color: #eee;    
+    display: block;
+   
+    transition: all .3s;    
+}
+
+.search_bar{
+    display: flex;
+    flex-direction: row; 
+    flex:1;  
+    
+}
+.bi{
+    background-color: orange;
+    margin-top: 2px;
+    width: 40px;
+    border-left: none;
+
+}
+.nav_option{
+    display: flex;
+    flex-direction: column;
+}
+.nav_link{
+    color:white;
+    text-decoration: none;
+}
+.headernav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav1{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav2{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.checkout{
+    color:white;
+}
+.basket{
+    background-color:#131A22 !important ;   
+    display: flex;
+    flex-direction: column;
+}
+.bi-cart4{
+    background-color: #131A22;
+}
+
+.search_bar2{
+    display: none;
+}
+
+@media screen and (max-width:540px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;  
+        z-index: 1;
+        position: initial;
+
+      }
+      .logoo{
+          font-size: 20px;
+      }
+    .search_bar{
+        display:none;
+    }
+    .searchinput{
+        width: 100px;
+        margin-left: 10px;
+    }
+    .img_logo{
+        width: 60px;
+    }
+    #prime{
+        display:none;
+    }
+    
+    /* .bi{
+        height: 37px;
+        width:40px;
+    }  */
+    .search_bar2{
+        display: flex;
+        width:100vw;
+        
+        margin-top: 1px;
+        
+    }
+    .searchinput2{
+        height: 40px;         
+        width: 100%;    
+        margin-left:0px;  
+        outline: none;
+        background-color:rgb(255, 251, 251);  
+        border: none;  
+        border-radius: 5%;
+              
+           
+    }
+    .bi-search{
+        
+        border-left: none;
+       
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+        
+    }
+    
+   
+}
+
+

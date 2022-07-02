@@ -1,0 +1,75 @@
+.Registration{
+    margin: auto;
+    width: 448px;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 40px;    
+    background-color: rgb(250, 244, 244);
+    font-family: Arial,sans-serif;
+    border: 1px solid rgb(245, 255, 255);
+    
+    
+
+}
+.labels{
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.form{
+    
+     background-color:white;
+     width: 440px;
+     margin-top: 2px;
+     margin-bottom: 5px;
+     margin-left: 3px;
+     border: 2px solid lightgrey;
+     
+     margin-right: 5px;
+}
+.input_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputvalues{
+    background-color: #fff;
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    line-height: normal;
+    border-top-color: #949494;
+    border-top-style: solid;    
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+   
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+
+}    
+.Register_head{
+    text-align: left;
+}
+.reg_btn{
+    width: 100%;
+    background-color: rgb(241, 190, 20,0.3);
+}
+@media screen and (max-width:600px) {
+    .Registration{
+        width: 90vw;
+        margin: auto;
+    }
+    .form{
+        width: 88vw;
+        margin: auto;
+    }
+      
+    
+}

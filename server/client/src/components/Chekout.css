@@ -1,0 +1,29 @@
+.checkout_ad{
+    overflow: hidden;
+    height: 200px;
+    width:90%;
+    margin :20px;
+
+}
+h2, p{
+    text-align: left;
+    margin-left: 15px;;
+}
+.chekout{
+    background-color: white;
+    display: flex;
+    padding:20px;
+    height: max-content;
+    justify-content: space-between;
+}
+@media screen and (max-width:600px){
+    .chekout{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .checkout_ad{
+        display: none;
+    }
+    
+}
